@@ -57,6 +57,8 @@
     <div class="card">
         <h2 class="card-title">{{ $post->title }}</h2>
         <p class="card-description">{{ Str::limit($post->description, 100) }}</p>
+
+        <!-- 'route('post.show', $post->id)' genera la URL asociada a la ruta 'post.show', pasando el ID del post como parámetro. -->
         <a href="{{ route('post.show', $post->id) }}" class="card-link">Leer Más</a>
     </div>
     @endforeach

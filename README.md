@@ -59,3 +59,35 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+
+
+
+Datos para la bd:
+
+INSERT INTO posts(title, description)
+VALUES 
+(
+    'Introducción a Laravel', 
+    'Laravel es un framework PHP moderno y elegante que proporciona una sintaxis expresiva para facilitar el desarrollo web. En esta publicación se cubren los conceptos básicos, incluyendo la estructura de archivos, rutas, controladores y vistas.'
+),
+(
+    'Patrones de diseño en PHP', 
+    'En este artículo exploramos varios patrones de diseño utilizados en PHP, como Singleton, Factory y Repository. Estos patrones ayudan a escribir código más limpio, escalable y fácil de mantener en aplicaciones web modernas.'
+),
+(
+    'API REST con Laravel', 
+    'Aprende a construir una API RESTful completa utilizando Laravel. Esta guía incluye la configuración de rutas API, controladores, validación de datos, respuestas JSON, manejo de errores y uso de recursos para estructurar la salida.'
+),
+(
+    'Autenticación con Laravel Breeze', 
+    'Laravel Breeze es una solución ligera de autenticación que proporciona rutas, controladores y vistas prediseñadas para login, registro, recuperación de contraseñas y verificación de correo. Aquí verás cómo implementarlo paso a paso.'
+),
+(
+    'Migraciones y Seeders en Laravel', 
+    'Las migraciones permiten controlar la estructura de la base de datos desde el código, y los seeders facilitan poblarla con datos de prueba. Este post explica cómo crear y ejecutar ambos recursos en Laravel para mantener tu base de datos organizada.'
+);
