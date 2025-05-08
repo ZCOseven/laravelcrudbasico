@@ -41,8 +41,8 @@
 <header class="header">
     <nav class="header__nav">
         <ul class="header__list">
-            <li class="header__item"><a href="#" class="header__link">Inicio</a></li>
-            <li class="header__item"><a href="#" class="header__link">Nosotros</a></li>
+            <li class="header__item"><a href="{{ route('home') }}" class="header__link">Inicio</a></li>
+            <li class="header__item"><a href="{{ route('about') }}" class="header__link">Nosotros</a></li>
             <li class="header__item"><a href="#" class="header__link">Login</a></li>
         </ul>
     </nav>
